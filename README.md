@@ -1,2 +1,2 @@
 # Leetcode-Submissions
-Downloaded all my leetode submissions
+Downloaded all my leetcode submissions
