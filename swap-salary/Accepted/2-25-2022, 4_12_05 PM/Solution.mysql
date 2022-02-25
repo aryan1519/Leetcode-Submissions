@@ -1,0 +1,13 @@
+// https://leetcode.com/problems/swap-salary
+
+# update salary set sex = CHAR(ASCII('f') ^ ASCII('m') ^ ASCII(sex));
+
+UPDATE Salary
+SET sex = 
+CASE
+    WHEN sex = "f" THEN "m"
+    WHEN sex = "m" THEN "f"
+END
+
+# UPDATE Salary SET sex = CHAR(ASCII('m') + ASCII('f') - ASCII(sex)); 
+
